@@ -1,0 +1,460 @@
+{
+  "Kunishige Rokuhira": {
+    "alliance": [
+      "Rokuhira Swordsmith"
+    ],
+    "gender": "Male",
+    "age": "37",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/d/d0/Kunishige_Rokuhira_Portrait.png/revision/latest/scale-to-width-down/150?cb=20230923194130",
+    "debut": "1",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Chihiro Rokuhira": {
+    "alliance": [
+      "Rokuhira Swordsmith",
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "18",
+    "hair": "Black",
+    "eyes": "Crimson",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/8/84/Chihiro_Rokuhira_Portrait.png/revision/latest/scale-to-width-down/179?cb=20231026022923",
+    "debut": "1",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Togo Shiba": {
+    "alliance": [
+      "Rokuhira Swordsmith",
+      "Cafe Haru Haru"
+    ],
+    "gender": "Male",
+    "age": "39",
+    "hair": "Blond",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/6/6c/Togo_Shiba_Portrait.png/revision/latest/scale-to-width-down/150?cb=20230923194117",
+    "debut": "1",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Hinao": {
+    "alliance": [
+      "Cafe Haru Haru"
+    ],
+    "gender": "Female",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/e/ed/Hinao_Portrait.png/revision/latest/scale-to-width-down/150?cb=20231001182617",
+    "debut": "3",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Char Kyonagi": {
+    "alliance": "None",
+    "gender": "Female",
+    "age": "Unknown",
+    "hair": "Light Blonde",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/3/3d/Char_Kyonagi_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240205051018",
+    "debut": "3",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Azami": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/9/95/Azami_Portrait.png/revision/latest/scale-to-width-down/150?cb=20231029160159",
+    "debut": "7",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Hakuri Sazanami": {
+    "alliance": [
+      "Sazanami Clan"
+    ],
+    "gender": "Male",
+    "age": "17",
+    "hair": "White",
+    "eyes": "Blue",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/8/84/Hakuri_Sazanami_Portrait.png/revision/latest/scale-to-width-down/239?cb=20240911132820",
+    "debut": "19",
+    "firstArc": "Rakuzaichi Arc"
+  },
+  "Hiyuki Kagari": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Female",
+    "age": "Unknown",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/f/f6/Hiyuki_Kagari_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240128162648",
+    "debut": "18",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Tafuku Mihara": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/8/81/Tafuku_Mihara_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240213022436",
+    "debut": "20",
+    "firstArc": "Rakuzaichi Arc"
+  },
+  "Ro": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": ">23",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/8/82/Ro_Portrait.png/revision/latest/scale-to-width-down/150?cb=20250111140312",
+    "debut": "55",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Moku": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/e/e3/Moku_Portrait.png/revision/latest/scale-to-width-down/150?cb=20250227113410",
+    "debut": "50",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Sumi": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Female",
+    "age": "Unknown",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/f/f8/Sumi_Portrait.png/revision/latest/scale-to-width-down/150?cb=20250115133637",
+    "debut": "50",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Ikuto Hagiwara": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/f/f7/Ikuto_Hagiwara_Portrait.png/revision/latest/scale-to-width-down/204?cb=20231206044607",
+    "debut": "10",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Kazane Machi": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/d/dc/Kazane_Machi_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240130064130",
+    "debut": "11",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Shiyumi Harima": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Female",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/4/4e/Shiyumi_Harima_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240130064135",
+    "debut": "10",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Hajime Kugara": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/1/18/Hajime_Kugara_Portrait.png/revision/latest/scale-to-width-down/150?cb=20231119154000",
+    "debut": "10",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Kiyohiko Uzuki": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/2/2b/Kiyohiko_Uzuki_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240130064132",
+    "debut": "10",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Makoto Kasahara": {
+    "alliance": [
+      "Kamunabi"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/7/7d/Makoto_Kasahara_Portrait.png/revision/latest/scale-to-width-down/151?cb=20240217045821",
+    "debut": "10",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "-Master Swordsman-": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/5/5f/%22Master_Swordsman%22_Portrait.png/revision/latest/scale-to-width-down/150?cb=20250318104205",
+    "debut": "18",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Yoji Uruha": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Dark green",
+    "eyes": "Dark green",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/8/83/Yoji_Uruha_Portrait.png/revision/latest/scale-to-width-down/218?cb=20240902011014",
+    "debut": "18",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Seiichi Samura": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Black",
+    "eyes": "Pupilless",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/4/41/Seiichi_Samura_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240923022204",
+    "debut": "18",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Yura": {
+    "alliance": [
+      "Hishaku"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/2/2c/Yura_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240911101715",
+    "debut": "7",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Hishaku Sorcerer": {
+    "alliance": [
+      "Hishaku"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/2/27/Hishaku_Sorcerer_Portrait.png/revision/latest/scale-to-width-down/150?cb=20230923194054",
+    "debut": "1",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Hiruhiko": {
+    "alliance": [
+      "Hishaku"
+    ],
+    "gender": "Male",
+    "age": ">18",
+    "hair": "Pink",
+    "eyes": "Pink",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/a/a2/Hiruhiko_Portrait.png/revision/latest/scale-to-width-down/175?cb=20240911113021",
+    "debut": "48",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Kuguri": {
+    "alliance": [
+      "Hishaku"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/4/4a/Kuguri_Portrait.png/revision/latest/scale-to-width-down/150?cb=20241227072548",
+    "debut": "61",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Toto": {
+    "alliance": [
+      "Hishaku"
+    ],
+    "gender": "Female",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/e/e5/Toto_Portrait.png/revision/latest/scale-to-width-down/150?cb=20241217073228",
+    "debut": "61",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Kyora Sazanami": {
+    "alliance": [
+      "Sazanami Clan"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "White",
+    "eyes": "Blue",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/0/03/Kyora_Sazanami_Portrait.png/revision/latest/scale-to-width-down/200?cb=20240911101730",
+    "debut": "19",
+    "firstArc": "Rakuzaichi Arc"
+  },
+  "Soya Sazanami": {
+    "alliance": [
+      "Sazanami Clan"
+    ],
+    "gender": "Male",
+    "age": "23",
+    "hair": "White",
+    "eyes": "Blue",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/a/a4/Soya_Sazanami_Portrait.png/revision/latest/scale-to-width-down/164?cb=20240911132803",
+    "debut": "23",
+    "firstArc": "Rakuzaichi Arc"
+  },
+  "Tenri Sazanami": {
+    "alliance": [
+      "Sazanami Clan"
+    ],
+    "gender": "Male",
+    "age": "16",
+    "hair": "White",
+    "eyes": "Blue",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/c/c1/Tenri_Sazanami_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240911133644",
+    "debut": "23",
+    "firstArc": "Rakuzaichi Arc"
+  },
+  "Tamaki Sazanami": {
+    "alliance": [
+      "Sazanami Clan"
+    ],
+    "gender": "Female",
+    "age": "22",
+    "hair": "White",
+    "eyes": "Brown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/e/e2/Tamaki_Sazanami_Portrait.png/revision/latest/scale-to-width-down/188?cb=20240911133548",
+    "debut": "23",
+    "firstArc": "Rakuzaichi Arc"
+  },
+  "Enji Sazanami": {
+    "alliance": [
+      "Sazanami Clan"
+    ],
+    "gender": "Male",
+    "age": "29",
+    "hair": "White",
+    "eyes": "Brown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/a/a4/Enji_Sazanami_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240911133256",
+    "debut": "23",
+    "firstArc": "Rakuzaichi Arc"
+  },
+  "Genichi Sojo": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "30",
+    "hair": "Black",
+    "eyes": "Black",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/9/94/Genichi_Sojo_Portrait.png/revision/latest/scale-to-width-down/182?cb=20231114143921",
+    "debut": "5",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Norisaku Madoka": {
+    "alliance": [
+      "Genichi Sojo"
+    ],
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/8/8b/Norisaku_Madoka_Portrait.png/revision/latest/scale-to-width-down/150?cb=20231001182625",
+    "debut": "3",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Clone Sorcerer": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/a/a2/Clone_Sorcerer_Portrait.png/revision/latest/scale-to-width-down/150?cb=20231022155719",
+    "debut": "5",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Trauma Sorcerer": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/0/08/Trauma_Sorcerer_Portrait.png/revision/latest/scale-to-width-down/150?cb=20231022155715",
+    "debut": "6",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Oni Mask Sorcerer": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/3/33/Oni_Mask_Sorcerer_Portrait.png/revision/latest/scale-to-width-down/150?cb=20240429104417",
+    "debut": "3",
+    "firstArc": "Vs. Sojo Arc"
+  },
+  "Yojiro Sengoku": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/d/d9/Yojiro_Sengoku_Portrait.png/revision/latest/scale-to-width-down/166?cb=20250220235809",
+    "debut": "65",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Iori Samura": {
+    "alliance": "None",
+    "gender": "Female",
+    "age": "17",
+    "hair": "Black",
+    "eyes": "Grey",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/6/69/Iori_Samura_Portrait.png/revision/latest/scale-to-width-down/150?cb=20250314174623",
+    "debut": "61",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Itsuo Shirakai": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/a/a1/Itsuo_Shirakai_Portrait.png/revision/latest/scale-to-width-down/173?cb=20250304232652",
+    "debut": "65",
+    "firstArc": "Sword Bearer Assassination Arc"
+  },
+  "Ikura": {
+    "alliance": "None",
+    "gender": "Male",
+    "age": "Unknown",
+    "hair": "Unknown",
+    "eyes": "Unknown",
+    "img": "https://static.wikia.nocookie.net/kagurabachi/images/1/1c/Ikura_Portrait.png/revision/latest/scale-to-width-down/150?cb=20241227205711",
+    "debut": "62",
+    "firstArc": "Sword Bearer Assassination Arc"
+  }
+}
