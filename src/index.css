@@ -15,8 +15,9 @@
   -moz-osx-font-smoothing: grayscale;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
 
   background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vXsUN.img?w=1800&h=900&m=4&q=79);
   background-size: cover;        /* Makes the image cover the entire screen */
@@ -29,7 +30,7 @@
     content: "";
     position: fixed;
     inset: 0;
-    background-color: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+    background-color: rgba(0, 0, 0, 0.35); /* Black with 30% opacity */
     z-index: -1;
   }
 }

@@ -94,7 +94,7 @@ for i in range(len(charLinks)):
 
     # gets the img link for character
     img = name_link_img[i][2]
-
+    img = img[0:img.find("/revision")]
 
     # gets debut chapter to find first arc
     debut = section.find("div", attrs={"data-source": "mangadebut"}).find("a").get("title")[-2::].replace(" ", "")

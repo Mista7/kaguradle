@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
+.clues {
+    background-color: black;
+    border-radius: 5%;
+    padding: 0.5rem 2.2rem;
+    font-weight: 700;
+}
 
-#container{
+#nav {
+  background: #000;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background-image: url();
+  
+  height: 3rem;
+  font-size: 1.87rem;
+  font-weight: 500;
 }
-
