@@ -26,11 +26,13 @@
   height: 100vh;                 /* Ensures the body takes full viewport height */
   margin: 0;  
 
+
+  /* Layer over the background picture so its easier to see */
   body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.35); /* Black with 30% opacity */
+    background-color: rgba(0, 0, 0, 0.40); /* Black with opacity */
     z-index: -1;
   }
 }

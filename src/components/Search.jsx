@@ -7,9 +7,10 @@ export default function Search() {
     const characters = Object.keys(characterInfo);
     const [searchItem, setSearchItem] = useState("");
     const [searchChars, setSearchChars] = useState(characters);
+    
 
     // function that checks for all characters that match the current search
-    const handleSeachChange = (e) => {
+    const handleSearchChange = (e) => {
         const searchInput = e.target.value;
         setSearchItem(searchInput);
 
@@ -20,40 +21,57 @@ export default function Search() {
         setSearchChars(filteredChars);
     };
 
+
+
+    // Makes it so that the search bar updates when the user click a searched character
+    const handleGuess = (e) =>{
+        const char = e.currentTarget.getAttribute("data-name");
+        const searchBar = document.querySelector('#searchBar')
+        const searchBarEvent = {"target": searchBar}
+
+        searchBar.value = char
+        handleSearchChange(searchBarEvent)
+        searchBar.focus()
+    }
+
+
+// Main content, checks if searchbar is empty and returns based on that
     {
         return searchItem != "" ? (
             <>
-                <div
-                    id="searchContainer"
-                    className=""
-                >
+                <div id="searchContainer" className="">
                     <input
                         type="text"
                         name="searchBar"
                         id="searchBar"
                         placeholder="Enter Character Name (ex.Chihiro Rokuhira)"
-                        className="bg-[#808080] text-left pl-2.5 w-[542px] h-[60px] rounded"
-                        onChange={handleSeachChange}
+                        className=""
+                        onChange={handleSearchChange}
                         value={searchItem}
                         autoFocus
                     />
 
-                    <button type="button" >
+                    <button type="button">
                         <BsFillArrowRightSquareFill size={60} />
                     </button>
                 </div>
 
-                <ul className="flex flex-col" id="searchChars">
-                    <div id="charContainer" className="">
+                <ul className="flex flex-col" id="searchCharsList">
+                    <div id="searchCharContainer" className="">
                         {searchChars.map((character) => (
-                            <li key={character} className="flex flex-row">
+                            <li
+                                key={character}
+                                data-name={character}
+                                className="flex flex-row searchChar"
+                                onClick={handleGuess}
+                            >
                                 <img
                                     src={characterInfo[character].img}
                                     alt={character}
-                                    className="h-[96px] w-[96px] charImg"
+                                    className="charImg"
                                 />
 
-                                <div className="content-center">
+                                <div className="content-center pl-[20px]">
                                     {character}
                                 </div>
                             </li>
@@ -63,17 +81,14 @@ export default function Search() {
             </>
         ) : (
             <>
-                <div
-                    id="searchContainer"
-                    className=""
-                >
+                <div id="searchContainer" className="">
                     <input
                         type="text"
                         name="searchBar"
                         id="searchBar"
                         placeholder="Enter Character Name (ex.Chihiro Rokuhira)"
-                        className="bg-[#808080] text-left pl-2.5 w-[542px] h-[60px] rounded"
-                        onChange={handleSeachChange}
+                        className=""
+                        onChange={handleSearchChange}
                         value={searchItem}
                         autoFocus
                     />
