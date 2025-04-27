@@ -17,11 +17,19 @@
     overflow-y: scroll;
     color: black;
     border-radius: 0.25rem;
+    transform: translate(-313.5px,-26px);
+    position: absolute;  /* Change to absolute to overlay */
+    z-index: 20;  /* Ensure it's above the clues */
+
 }
 
-#searchCharsList {
-    transform: translate(-42px, -26px);
+#searchCharContainer:hover{
+    cursor: pointer;
 }
+
+/* #searchCharsList {
+    transform: translate(-42px, -26px);
+} */
 
 #searchCharContainer::-webkit-scrollbar {
     width: 15px;

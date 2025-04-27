@@ -1,5 +1,6 @@
 {
   "Kunishige Rokuhira": {
+    "name": "Kunishige Rokuhira",
     "alliance": [
       "Rokuhira Swordsmith"
     ],
@@ -12,6 +13,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Chihiro Rokuhira": {
+    "name": "Chihiro Rokuhira",
     "alliance": [
       "Rokuhira Swordsmith",
       "Kamunabi"
@@ -25,6 +27,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Togo Shiba": {
+    "name": "Togo Shiba",
     "alliance": [
       "Rokuhira Swordsmith",
       "Cafe Haru Haru"
@@ -38,6 +41,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Hinao": {
+    "name": "Hinao",
     "alliance": [
       "Cafe Haru Haru"
     ],
@@ -50,6 +54,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Char Kyonagi": {
+    "name": "Char Kyonagi",
     "alliance": "None",
     "gender": "Female",
     "age": "Unknown",
@@ -60,6 +65,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Azami": {
+    "name": "Azami",
     "alliance": [
       "Kamunabi"
     ],
@@ -72,6 +78,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Hakuri Sazanami": {
+    "name": "Hakuri Sazanami",
     "alliance": [
       "Sazanami Clan"
     ],
@@ -84,6 +91,7 @@
     "firstArc": "Rakuzaichi Arc"
   },
   "Hiyuki Kagari": {
+    "name": "Hiyuki Kagari",
     "alliance": [
       "Kamunabi"
     ],
@@ -96,6 +104,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Tafuku Mihara": {
+    "name": "Tafuku Mihara",
     "alliance": [
       "Kamunabi"
     ],
@@ -108,6 +117,7 @@
     "firstArc": "Rakuzaichi Arc"
   },
   "Ro": {
+    "name": "Ro",
     "alliance": [
       "Kamunabi"
     ],
@@ -120,6 +130,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Moku": {
+    "name": "Moku",
     "alliance": [
       "Kamunabi"
     ],
@@ -132,6 +143,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Sumi": {
+    "name": "Sumi",
     "alliance": [
       "Kamunabi"
     ],
@@ -144,6 +156,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Ikuto Hagiwara": {
+    "name": "Ikuto Hagiwara",
     "alliance": [
       "Kamunabi"
     ],
@@ -156,6 +169,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Kazane Machi": {
+    "name": "Kazane Machi",
     "alliance": [
       "Kamunabi"
     ],
@@ -168,6 +182,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Shiyumi Harima": {
+    "name": "Shiyumi Harima",
     "alliance": [
       "Kamunabi"
     ],
@@ -180,6 +195,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Hajime Kugara": {
+    "name": "Hajime Kugara",
     "alliance": [
       "Kamunabi"
     ],
@@ -192,6 +208,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Kiyohiko Uzuki": {
+    "name": "Kiyohiko Uzuki",
     "alliance": [
       "Kamunabi"
     ],
@@ -204,6 +221,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Makoto Kasahara": {
+    "name": "Makoto Kasahara",
     "alliance": [
       "Kamunabi"
     ],
@@ -216,6 +234,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "-Master Swordsman-": {
+    "name": "-Master Swordsman-",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -226,6 +245,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Yoji Uruha": {
+    "name": "Yoji Uruha",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -236,6 +256,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Seiichi Samura": {
+    "name": "Seiichi Samura",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -246,6 +267,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Yura": {
+    "name": "Yura",
     "alliance": [
       "Hishaku"
     ],
@@ -258,6 +280,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Hishaku Sorcerer": {
+    "name": "Hishaku Sorcerer",
     "alliance": [
       "Hishaku"
     ],
@@ -270,6 +293,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Hiruhiko": {
+    "name": "Hiruhiko",
     "alliance": [
       "Hishaku"
     ],
@@ -282,6 +306,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Kuguri": {
+    "name": "Kuguri",
     "alliance": [
       "Hishaku"
     ],
@@ -294,6 +319,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Toto": {
+    "name": "Toto",
     "alliance": [
       "Hishaku"
     ],
@@ -306,6 +332,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Kyora Sazanami": {
+    "name": "Kyora Sazanami",
     "alliance": [
       "Sazanami Clan"
     ],
@@ -318,6 +345,7 @@
     "firstArc": "Rakuzaichi Arc"
   },
   "Soya Sazanami": {
+    "name": "Soya Sazanami",
     "alliance": [
       "Sazanami Clan"
     ],
@@ -330,6 +358,7 @@
     "firstArc": "Rakuzaichi Arc"
   },
   "Tenri Sazanami": {
+    "name": "Tenri Sazanami",
     "alliance": [
       "Sazanami Clan"
     ],
@@ -342,6 +371,7 @@
     "firstArc": "Rakuzaichi Arc"
   },
   "Tamaki Sazanami": {
+    "name": "Tamaki Sazanami",
     "alliance": [
       "Sazanami Clan"
     ],
@@ -354,6 +384,7 @@
     "firstArc": "Rakuzaichi Arc"
   },
   "Enji Sazanami": {
+    "name": "Enji Sazanami",
     "alliance": [
       "Sazanami Clan"
     ],
@@ -366,6 +397,7 @@
     "firstArc": "Rakuzaichi Arc"
   },
   "Genichi Sojo": {
+    "name": "Genichi Sojo",
     "alliance": "None",
     "gender": "Male",
     "age": "30",
@@ -376,6 +408,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Norisaku Madoka": {
+    "name": "Norisaku Madoka",
     "alliance": [
       "Genichi Sojo"
     ],
@@ -388,6 +421,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Clone Sorcerer": {
+    "name": "Clone Sorcerer",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -398,6 +432,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Trauma Sorcerer": {
+    "name": "Trauma Sorcerer",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -408,6 +443,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Oni Mask Sorcerer": {
+    "name": "Oni Mask Sorcerer",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -418,6 +454,7 @@
     "firstArc": "Vs. Sojo Arc"
   },
   "Yojiro Sengoku": {
+    "name": "Yojiro Sengoku",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -428,6 +465,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Iori Samura": {
+    "name": "Iori Samura",
     "alliance": "None",
     "gender": "Female",
     "age": "17",
@@ -438,6 +476,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Itsuo Shirakai": {
+    "name": "Itsuo Shirakai",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",
@@ -448,6 +487,7 @@
     "firstArc": "Sword Bearer Assassination Arc"
   },
   "Ikura": {
+    "name": "Ikura",
     "alliance": "None",
     "gender": "Male",
     "age": "Unknown",

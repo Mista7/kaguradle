@@ -102,21 +102,15 @@ for i in range(len(charLinks)):
     arcLink = f"https://kagurabachi.fandom.com/wiki/Chapter_{debut}"
     response = requests.get(arcLink, headers=headers)
     arcPage = BeautifulSoup(response.text, "lxml")
-
     arcSection = arcPage.find("aside", lambda c:c and "portable-infobox" in c)
 
     firstArc = arcSection.find("div", attrs={"data-source": "arc"}).find("div").get_text()
 
 
-    characterFullInfo[charNames[i]] = {"alliance":alliance, "gender": gender, "age": age, "hair": hair, "eyes": eyes, "img" : img, "debut": debut, 'firstArc': firstArc}
+    characterFullInfo[charNames[i]] = {"name":charNames[i], "alliance":alliance, "gender": gender, "age": age, "hair": hair, "eyes": eyes, "img" : img, "debut": debut, 'firstArc': firstArc}
 
-
-
-
-
-# print(characterFullInfo)
 
 # sends the dictionary to json file for react
 
-# with open("characterInfo.json", "w", encoding="utf-8") as f:
-#     json.dump(characterFullInfo, f, indent=2, ensure_ascii=False)
+with open("characterInfo.json", "w", encoding="utf-8") as f:
+    json.dump(characterFullInfo, f, indent=2, ensure_ascii=False)

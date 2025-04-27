@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Search from "./components/Search";
+import Guess from "./components/Guess";
 
 export default function App() {
-    const [count, setCount] = useState(0);
+    const [guessCount, setGuessCount] = useState(0);
+    const [guess, setGuess] = useState([]);
+
 
     return (
         <>
@@ -14,32 +17,41 @@ export default function App() {
                 <nav className="flex flex-row w-auto h-auto " id="nav">
                     Kaguradle
                 </nav>
-                <Search />
+                <Search guess={guess} setGuess={setGuess} />
 
-                <div
-                    id="clues"
-                    className="flex flex-row justify-between gap-10"
-                >
-                    <div id="img" className="clues">
-                        Image
-                    </div>
-                    <div id="gender" className="clues">
-                        Gender
-                    </div>
-                    <div id="age" className="clues">
-                        Age
-                    </div>
-                    <div if="eye" className="clues">
-                        Eye Color
-                    </div>
-                    <div id="hair" className="clues">
-                        Hair Color
-                    </div>
-                    <div id="firstArc" className="clues">
-                        First Arc
-                    </div>
+                <div id="guessContainer" className="flex flex-col gap-[20px]">
+                    <ul
+                        id="clueContainer"
+                        className="flex flex-row justify-between p-0 m-0 gap-5"
+                    >
+                        <li id="img" className="clue">
+                            Image
+                        </li>
+                        <li id="name" className="clue">
+                            Name
+                        </li>
+                        <li id="gender" className="clue">
+                            Gender
+                        </li>
+                        <li id="age" className="clue">
+                            Age
+                        </li>
+                        <li id="eye" className="clue">
+                            Eye Color
+                        </li>
+                        <li id="hair" className="clue">
+                            Hair Color
+                        </li>
+                        <li id="alliance" className="clue">
+                            Alliance
+                        </li>
+                        <li id="firstArc" className="clue">
+                            First Arc
+                        </li>
+                    </ul>
+                    
+                    <Guess guessList={guess} setGuess={setGuess}/>
                 </div>
-                <div id="guesses"></div>
             </div>
         </>
     );

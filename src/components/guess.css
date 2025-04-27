@@ -1,0 +1,56 @@
+.img {
+    width: 119.28px;
+    height: 119.28px;
+    object-fit: scale-down;
+    overflow: hidden;
+}
+
+.name{
+    width: 116.94px;
+}
+
+
+.gender {
+    width: 127.02px;
+}
+
+.age {
+    width: 102.19px;
+}
+
+.eyes {
+    width: 142.88px;
+}
+
+.hair {
+    width: 149.03px;
+}
+
+.alliance {
+    width: 131.89px;
+}
+
+.firstArc {
+    width: 134.63px;
+}
+
+.clues {
+    background-color: black;
+    border-radius: 0.35rem;
+    font-weight: 700;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap:break-word;
+    text-align: center;
+}
+
+
+.true{
+    background-color: green;
+}
+
+.false{
+    background-color: red;
+}
