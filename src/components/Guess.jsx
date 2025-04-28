@@ -1,6 +1,7 @@
 import characterInfo from "../characterInfo.json";
 import { useState, useEffect } from "react";
 import "./guess.css";
+import { PiArrowFatUpFill, PiArrowFatDownFill } from "react-icons/pi";
 
 const characters = Object.keys(characterInfo); // All character names
 const correctChar = characters[Math.floor(Math.random() * characters.length)];
@@ -20,7 +21,33 @@ export default function Guess({ guessList }) {
 
             console.log("Guess", guessInfo);
             console.log("correct", correctChar);
-            console.log(guessInfo.gender, correctAns.gender);
+            console.log(guessInfo.alliance, correctAns.alliance);
+
+            // const checkAlliance = () => {
+            //     if (correctAns.alliance.length === guessInfo.alliance.length) {
+            //         for (i = 0; i < correctAns.alliance.length; i++) {
+            //             let check = 0;
+            //             if (correctAns.alliance[i] === guessInfo.alliance[i]) {
+            //                 check++;
+            //             }
+            //         }
+            //         // console.log(check==correctAns.lenght)
+            //         return check === correctAns.alliance.length;
+            //     } else{return false}
+            // };
+
+            const checkAlliance = () => {
+                const correctAlliance =
+                    correctAns.alliance != "None"
+                        ? correctAns.alliance.join(", ")
+                        : correctAns.alliance;
+                const guessAlliance =
+                    guessInfo.alliance != "None"
+                        ? guessInfo.alliance.join(", ")
+                        : guessInfo.alliance;
+
+                return correctAlliance === guessAlliance;
+            };
 
             const classToggle = {
                 name: guessInfo.name == correctAns.name,
@@ -28,7 +55,7 @@ export default function Guess({ guessList }) {
                 age: guessInfo.age == correctAns.age,
                 eyes: guessInfo.eyes === correctAns.eyes,
                 hair: guessInfo.hair == correctAns.hair,
-                alliance: guessInfo.alliance == correctAns.alliance,
+                alliance: checkAlliance(),
                 firstArc: guessInfo.firstArc == correctAns.firstArc,
             };
 
@@ -49,6 +76,16 @@ export default function Guess({ guessList }) {
                     </div>
                     <div className={`age clues ${classToggle.age}`}>
                         {guessInfo.age}
+                        {/* Icon */}
+                        {guessInfo.age < correctAns.age &&
+                        guessInfo.age !== "Unknown" &&
+                        correctAns.age !== "Unknown" ? (
+                            <PiArrowFatUpFill />
+                        ) : guessInfo.age > correctAns.age &&
+                          guessInfo.age !== "Unknown" &&
+                          correctAns.age !== "Unknown" ? (
+                            <PiArrowFatDownFill />
+                        ) : null}
                     </div>
                     <div className={`eyes clues ${classToggle.eyes}`}>
                         {guessInfo.eyes}
