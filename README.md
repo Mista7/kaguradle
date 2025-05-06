@@ -1,1 +1,3 @@
+A Kagurabachi Wordle Game. 
 
+Not much information for a lot of characters...
