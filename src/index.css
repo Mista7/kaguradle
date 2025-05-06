@@ -1,5 +1,27 @@
 @import "tailwindcss";
 
+.bg-1{
+  background-image: url("https://comicbook.com/wp-content/uploads/sites/4/2024/10/Kagurabachi-Chapter-53-Cover-Art.jpg");
+  background-size: cover;        /* Makes the image cover the entire screen */
+  background-repeat: no-repeat;  /* Prevents repeating */
+  background-position: center;   /* Centers the image */
+  min-height: 100vh;                 /* Ensures the body takes full viewport height */
+  margin: 0;  
+  background-attachment: fixed;
+
+}
+
+.bg-2{
+  background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vXsUN.img?w=1800&h=900&m=4&q=79");
+  background-size: cover;        /* Makes the image cover the entire screen */
+  background-repeat: no-repeat;  /* Prevents repeating */
+  background-position: center;   /* Centers the image */
+  min-height: 100vh;                 /* Ensures the body takes full viewport height */
+  margin: 0;  
+  background-attachment: fixed;
+  
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -22,20 +44,20 @@
 
   /* also good img */
   /* https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vXsUN.img?w=1800&h=900&m=4&q=79 */
-  background-image: url(https://comicbook.com/wp-content/uploads/sites/4/2024/10/Kagurabachi-Chapter-53-Cover-Art.jpg);
-  background-size: cover;        /* Makes the image cover the entire screen */
-  background-repeat: no-repeat;  /* Prevents repeating */
-  background-position: center;   /* Centers the image */
-  height: 100vh;                 /* Ensures the body takes full viewport height */
-  margin: 0;  
-  background-attachment: fixed;
+  /* background-image: url("https://comicbook.com/wp-content/uploads/sites/4/2024/10/Kagurabachi-Chapter-53-Cover-Art.jpg"); */
+  
 
 }
 
+
 /* Layer over the background picture so its easier to see */
-body::before {
+#root::before {
   content: "";
-  position: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.50); /* Black with opacity */
   z-index: -1;

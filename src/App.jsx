@@ -6,6 +6,16 @@ import Guess from "./components/Guess";
 export default function App() {
     const [guessCount, setGuessCount] = useState(0);
     const [guess, setGuess] = useState([]);
+    const bgs = ["https://comicbook.com/wp-content/uploads/sites/4/2024/10/Kagurabachi-Chapter-53-Cover-Art.jpg", "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1vXsUN.img?w=1800&h=900&m=4&q=79" ]
+    
+    useEffect(() => {
+        window.bgChange = () => {
+            const root = document.getElementById('root');
+            root.classList.toggle("bg-1")
+            root.classList.toggle("bg-2")
+        };
+      }, []);
+
 
 
     return (

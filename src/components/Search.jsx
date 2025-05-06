@@ -8,6 +8,7 @@ export default function Search({ guess, setGuess }) {
     const characters = Object.keys(characterInfo);
     const [searchItem, setSearchItem] = useState("");
     const [searchChars, setSearchChars] = useState(characters);
+    const [charGuessed, setCharGuessed] = useState(false);
     const searchBar = document.querySelector("#searchBar");
     const searchBarEvent = { target: searchBar };
     const searchBarRef = useRef(null);
@@ -70,6 +71,7 @@ export default function Search({ guess, setGuess }) {
                     id="searchContainer"
                     className=""
                     onSubmit={handleSubmitGuess}
+                    autoComplete="off"
                 >
                     <input
                         type="text"
