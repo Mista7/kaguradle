@@ -1,3 +1,3 @@
 A Kagurabachi Wordle Game. 
 
-Not much information for a lot of characters...
+Used BeautifulSoup to webscrape the wiki for character data, ReactJS for the frontend.
